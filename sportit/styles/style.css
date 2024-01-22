@@ -1,0 +1,248 @@
+* {
+    box-sizing: border-box;
+    color: black;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    margin: 0;
+    list-style: none;
+    padding: 0;
+    text-decoration: none;
+}
+header {
+    margin: 20px 0px 20px 20px;
+    padding: 10px 0px 10px 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navBarInicial {
+    display: none;
+}
+header .botonContacto {
+    display: none;
+}
+
+#logo {
+    margin-right: 10px;
+}
+
+#tamañoVector {
+    width: 40px;
+    height: 30px;
+}
+
+.principal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#imagDep{
+    padding: 10px;
+    width: 70vw;
+    height: 250px;
+}
+.textoPpal {
+    text-align: right;
+    margin-top: 20px;
+}
+.textoPpal p {
+    margin-top: 15px;
+    font-size: 12px;
+}
+.botonContacto {
+    background-color: #8B48BF;
+    width: 100px;
+    height: 35px;
+    color: white;
+    border-radius: 20px;
+    border: none;
+    margin-top: 10px;
+    font-size: 11px;
+    
+}
+.secundaria {
+    background-color: #3CDDF3;
+    display: flex;
+    flex-direction: column;
+    padding: 25px 7px;
+    margin-top: 15px;
+}
+
+.tituloSecun h2{
+    color: white;
+}
+.contenidoSecun p {
+    color: white;
+    font-size: 12px;
+    line-height: 20px;
+    margin-top: 25px;
+}
+.detalles {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+.botonNumero {
+    background-color: #8B48BF;
+    width: 50px;
+    height: 25px;
+    border: none;
+    border-radius: 40px;
+    color: white;
+}
+.titulosParrafos {
+    color: #323851;  
+    background-color: rgba(229, 165, 245, 0.5);
+    width: 100vw;
+    font-size: 14px;
+    height: 30px;
+    padding-left: 20px;
+}
+
+.parrafoDetalles {
+    color: #B3B2B7;
+    font-size: 11px;
+    line-height: 20px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.detalle1 {
+    display: flex;
+    flex-direction: row;
+}
+
+.elMejor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.mejor1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.imagenJugadores {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.mejor1 h3 {
+    color: #323851;  
+}
+
+.mejor1 p {
+    color: #B3B2B7;
+    font-size: 11px;
+    line-height: 20px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+#jugador {
+    display: none;
+}
+
+.parteFinal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #3CDDF3;
+    margin-top: 25px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#cambioColor {
+    background-color: #232C50;
+}
+
+.tituloFinal h2 {
+    color: white;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+footer {
+    background-color: #1E1E26;
+    width: 100vw;
+    padding-top: 30px;
+}
+.formulario1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.inputFormulario {
+    width: 60vw;
+    height: 30px;
+    border-radius: 40px;
+}
+.menuNavegacion {
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+}
+.navBar li a {
+    color: white;
+    font-size: 13px;
+    line-height: 30px;
+}
+
+.navBar {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.redesSociales {
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 30px;
+}
+.logoFinal {
+    text-align: center;
+}
+.redes p{
+    color: #8C8C94;
+    text-align: center;
+    font-size: 12px;
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+/* 
+@media(min-width : 481px){
+    .navBarInicial {
+        display: flex;
+        font-size: 7px;
+        margin: 10px;
+    }
+    .inicioHamburguesa {
+        display: none;
+    }
+    .navHeader{
+        display: flex;
+        flex-direction: row;
+    }
+    header .botonContacto {
+        display: inline-block;
+    }
+    .principal {
+        flex-direction: row;
+        margin-right: 30px;
+    }  
+    .secundaria {
+        flex-direction: row;
+        justify-content: space-around;
+        background-color: #8B48BF;
+    }
+    .detalles {
+        flex-direction: row;
+
+    }
+    .contenedor {
+        width: 40vw;
+    }
+
+
+
+} */
