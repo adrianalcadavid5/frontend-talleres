@@ -1,0 +1,1 @@
+![resultadoMobile](/img/resultadoMobile.png)
