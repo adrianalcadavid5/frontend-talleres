@@ -1,1 +1,1 @@
-![Resultado visual proyecto terminado](/img/resultadoFinal.png)
+![Resultado visual proyecto terminado](pizzas/img/resultadoFinal.png)
