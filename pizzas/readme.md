@@ -1,0 +1,1 @@
+![Resultado visual proyecto terminado](/img/resultadoFinal.png)
